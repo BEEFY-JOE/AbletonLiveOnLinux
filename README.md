@@ -29,3 +29,8 @@ Icon=/path/to/live12.svg
 ```
 
 3. log out and log back in your machine and launch Live 12 Suite
+
+### Custom Wine and Linux Kernel for Audio Production
+
+There is a [custom Wine Version](https://github.com/nine7nine/Wine-NSPA) and [Linux Kernel](https://github.com/nine7nine/Linux-NSPA-pkgbuild) for Professional Audio on Arch Linux written by user nine7nine on github.
+The kernel and wine version are Realtime Capable Pro Audio optimized versions, and specifically written with Ableton Live on Linux in mind. 
