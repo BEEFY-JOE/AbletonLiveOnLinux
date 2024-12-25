@@ -1,9 +1,9 @@
 # AbletonLiveOnLinux
-A Repository for All Things Related to Running Ableton Live on Linux, part of the newly formed Ableton on Linux Discord Group.
+A Repository for All Things Related to Running Ableton Live on Linux, part of the newly formed [Ableton on Linux Discord Group](discord.gg/yM2Jjh8xYA).
 
 ## Live 12
 ### Bypassing "Starting Max..." boot sequence Bug
-*Credits to user dsnvs on the discord!*
+*Credits to user dsnvs on the [discord](discord.gg/yM2Jjh8xYA)!*
 
 There is something wrong with how Max 8's maxpreferences.maxpref file is being processed, so what I did is the following:
 
