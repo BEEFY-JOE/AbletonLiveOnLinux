@@ -34,3 +34,23 @@ Icon=/path/to/live12.svg
 
 There is a [custom Wine Version](https://github.com/nine7nine/Wine-NSPA) and [Linux Kernel](https://github.com/nine7nine/Linux-NSPA-pkgbuild) for Professional Audio on Arch Linux written by user nine7nine on github.
 The kernel and wine version are Realtime Capable Pro Audio optimized versions, and specifically written with Ableton Live on Linux in mind. 
+
+### Test Install Documentation (WIP)
+1. Create custom wineprefix to separate Ableton from default wine prefix. 
+    * WINEPREFIX=/path/to/new/custom/prefix wineboot --init
+    * WINEPREFIX=/path/to/new/custom/prefix winecfg
+2. Install winetricks
+    * WINEPREFIX=/path/to/new/custom/prefix winetricks
+    * In the GUI select install components
+    * Find vcrun2022 and dxvk from the list and install them
+3. Install Ableton Live 12
+    * WINEPREFIX=/path/to/new/custom/prefix wine /path/to/ableton_installer.exe
+    * Leave all options default and proceed through installation
+    * Once Installation is complete, **DO NOT LAUNCH** when installer completes, hit **"Close"**
+4. Modify winecfg Settings
+    * WINEPREFIX=/path/to/new/custom/prefix winecfg
+    * Under graphics tab, enable Emulate virtual desktop, set the desktop size to something that will fit on your primary display.
+    * Under the staging tab, uncheck the box for "Enable CSMT for better graphic performance (deprecated)
+    * Click the "Ok" button to close winecfg
+5. Run Ableton Live 12 in the custom wineprefix
+    * WINEPREFIX=/path/to/new/custom/prefix wine /path/to/new/custom/prefix/rive_c/ProgramData/Ableton/Live\ 12\ Suite/Program/Ableton\ Live\ 12\ Suite.exe

@@ -1,0 +1,162 @@
+WINPREFIX=/home/joe/myBottles/AbletonLive12 wine /home/joe/Downloads/ableton_live_suite_12.1.5_64/Ableton\ Live\ 12\ Suite\ Installer.exe
+wine: created the configuration directory '/home/joe/.wine'
+002c:fixme:actctx:parse_depend_manifests Could not find dependent assembly L"Microsoft.Windows.Common-Controls" (6.0.0.0)
+002c:fixme:winediag:loader_init wine-staging 9.22 is a testing version containing experimental patches.
+002c:fixme:winediag:loader_init Please mention your exact version when filing bug reports on winehq.org.
+004c:fixme:actctx:parse_depend_manifests Could not find dependent assembly L"Microsoft.Windows.Common-Controls" (6.0.0.0)
+0054:fixme:actctx:parse_depend_manifests Could not find dependent assembly L"Microsoft.Windows.Common-Controls" (6.0.0.0)
+0054:err:ole:StdMarshalImpl_MarshalInterface Failed to create ifstub, hr 0x80004002
+0054:err:ole:CoMarshalInterface Failed to marshal the interface {6d5140c1-7436-11ce-8034-00aa006009fa}, hr 0x80004002
+0054:err:ole:apartment_get_local_server_stream Failed: 0x80004002
+0054:err:ole:start_rpcss Failed to open RpcSs service
+004c:err:ole:StdMarshalImpl_MarshalInterface Failed to create ifstub, hr 0x80004002
+004c:err:ole:CoMarshalInterface Failed to marshal the interface {6d5140c1-7436-11ce-8034-00aa006009fa}, hr 0x80004002
+004c:err:ole:apartment_get_local_server_stream Failed: 0x80004002
+0080:err:ntoskrnl:ServiceMain Failed to load L"C:\\windows\\system32\\win32k.sys"
+0080:err:ntoskrnl:ServiceMain Failed to load L"C:\\windows\\system32\\drivers\\dxgkrnl.sys"
+0080:err:ntoskrnl:ServiceMain Failed to load L"C:\\windows\\system32\\drivers\\dxgmms1.sys"
+0098:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0098:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0098:fixme:msi:internal_ui_handler internal UI not implemented for message 0x0b000000 (UI level = 1)
+0098:fixme:msi:internal_ui_handler internal UI not implemented for message 0x0b000000 (UI level = 1)
+00f8:fixme:msg:pack_message msg 14 (WM_ERASEBKGND) not supported yet
+002c:err:setupapi:do_file_copyW Unsupported style(s) 0x10
+011c:err:setupapi:do_file_copyW Unsupported style(s) 0x10
+011c:err:setupapi:do_file_copyW Unsupported style(s) 0x10
+002c:err:setupapi:do_file_copyW Unsupported style(s) 0x10
+0024:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0024:fixme:file:GetTempPath2W (261, L"") semi-stub
+0024:fixme:file:GetTempPath2W (261, L"") semi-stub
+0024:fixme:advapi:DecryptFileW (L"C:\\users\\joe\\AppData\\Local\\Temp\\{FA9B3B57-D6A0-4CD6-9C97-34B8DC3B4064}\\", 00000000): stub
+0154:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0154:fixme:file:GetTempPath2W (261, L"") semi-stub
+0154:fixme:advapi:DecryptFileW (L"C:\\users\\joe\\AppData\\Local\\Temp\\{1176CBFC-71A1-446A-B297-26C2B5BEDF15}\\", 00000000): stub
+0154:fixme:file:GetTempPath2W (261, L"") semi-stub
+0154:fixme:process:SetProcessShutdownParameters (000003ff, 00000000): partial stub.
+0160:fixme:nls:RtlGetThreadPreferredUILanguages 00000034, 01F9FEB8, 00000000 01F9FEB4
+0160:fixme:nls:get_dummy_preferred_ui_language (0x34 0x409 01F9FEB8 00000000 01F9FEB4) returning a dummy value (current locale)
+0160:fixme:nls:RtlGetThreadPreferredUILanguages 00000034, 01F9FEB8, 01624440 01F9FEB4
+0160:fixme:nls:get_dummy_preferred_ui_language (0x34 0x409 01F9FEB8 01624440 01F9FEB4) returning a dummy value (current locale)
+0160:fixme:nls:RtlGetThreadPreferredUILanguages 00000034, 01F9FEBC, 00000000 01F9FEB8
+0160:fixme:nls:get_dummy_preferred_ui_language (0x34 0x409 01F9FEBC 00000000 01F9FEB8) returning a dummy value (current locale)
+0160:fixme:nls:RtlGetThreadPreferredUILanguages 00000034, 01F9FEBC, 01657898 01F9FEB8
+0160:fixme:nls:get_dummy_preferred_ui_language (0x34 0x409 01F9FEBC 01657898 01F9FEB8) returning a dummy value (current locale)
+0160:fixme:nls:RtlGetThreadPreferredUILanguages 00000034, 01F9F718, 00000000 01F9F714
+0160:fixme:nls:get_dummy_preferred_ui_language (0x34 0x409 01F9F718 00000000 01F9F714) returning a dummy value (current locale)
+0160:fixme:nls:RtlGetThreadPreferredUILanguages 00000034, 01F9F718, 016897F8 01F9F714
+0160:fixme:nls:get_dummy_preferred_ui_language (0x34 0x409 01F9F718 016897F8 01F9F714) returning a dummy value (current locale)
+0160:fixme:shell:SHAutoComplete stub
+0160:fixme:gdiplus:resample_bitmap_pixel Unimplemented interpolation 7
+0154:fixme:advapi:DecryptFileW (L"C:\\users\\joe\\AppData\\Local\\Temp\\{1176CBFC-71A1-446A-B297-26C2B5BEDF15}\\", 00000000): stub
+0154:fixme:exec:SHELL_execute flags ignored: 0x00000100
+0170:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0170:fixme:file:GetTempPath2W (261, L"") semi-stub
+0170:fixme:file:GetTempPath2W (261, L"") semi-stub
+0170:fixme:process:SetProcessShutdownParameters (000003ff, 00000000): partial stub.
+0170:fixme:ole:CoInitializeSecurity 007CF324, -1, 00000000, 00000000, 6, 2, 00000000, 12288, 00000000 stub
+0170:fixme:wuapi:automatic_updates_Pause
+0170:fixme:sfc:SRSetRestorePointW 007CF1C8 007CF3D8
+0188:fixme:advapi:DecryptFileW (L"C:\\users\\joe\\AppData\\Local\\Temp\\{1176CBFC-71A1-446A-B297-26C2B5BEDF15}\\", 00000000): stub
+0184:fixme:advapi:DecryptFileW (L"C:\\ProgramData\\Package Cache\\70A888D5891EFD2A48D33C22F35E9178BD113032162DC5A170E7C56F2D592E3C\\vc_redist.x64.exe", 00000000): stub
+0184:fixme:advapi:DecryptFileW (L"C:\\ProgramData\\Package Cache\\{A823612A-AA91-4911-886A-7C589452C65C}v5.68.0\\Ableton_Push_Audio_Driver.msi", 00000000): stub
+0184:fixme:advapi:DecryptFileW (L"C:\\ProgramData\\Package Cache\\{C58391C1-75B5-404E-8ECA-5AF322080D4B}v12.0.0.0\\Setup.msi", 00000000): stub
+0184:fixme:advapi:DecryptFileW (L"C:\\ProgramData\\Package Cache\\{C58391C1-75B5-404E-8ECA-5AF322080D4B}v12.0.0.0\\Ableton Live 12 Suite Installer Data 3.cab", 00000000): stub
+0184:fixme:advapi:DecryptFileW (L"C:\\ProgramData\\Package Cache\\{C58391C1-75B5-404E-8ECA-5AF322080D4B}v12.0.0.0\\Ableton Live 12 Suite Installer Data 2.cab", 00000000): stub
+0184:fixme:advapi:DecryptFileW (L"C:\\ProgramData\\Package Cache\\{C58391C1-75B5-404E-8ECA-5AF322080D4B}v12.0.0.0\\Ableton Live 12 Suite Installer Data 1.cab", 00000000): stub
+0184:fixme:file:GetTempPath2W (261, L"") semi-stub
+0194:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+0194:fixme:advapi:DecryptFileW (L"C:\\windows\\Temp\\{0C1D084E-CA3C-4FBB-AD51-3762D120FE2A}\\", 00000000): stub
+01a0:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+01a0:fixme:advapi:DecryptFileW (L"C:\\windows\\Temp\\{7E13595B-4AFA-4020-8A5D-055074CE0BDA}\\", 00000000): stub
+01ac:fixme:shell:SHAutoComplete stub
+01a0:fixme:advapi:DecryptFileW (L"C:\\windows\\Temp\\{7E13595B-4AFA-4020-8A5D-055074CE0BDA}\\", 00000000): stub
+01a0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+01bc:fixme:heap:RtlSetHeapInformation HEAP_INFORMATION_CLASS 1 not implemented!
+01bc:fixme:ole:CoInitializeSecurity 0077F608, -1, 00000000, 00000000, 6, 2, 00000000, 12288, 00000000 stub
+01bc:fixme:wuapi:automatic_updates_Pause
+01bc:fixme:sfc:SRSetRestorePointW 0077F4D0 0077F6E0
+01c8:fixme:advapi:DecryptFileW (L"C:\\ProgramData\\Package Cache\\{D5D19E2F-7189-42FE-8103-92CD1FA457C2}v14.36.32532\\packages\\vcRuntimeMinimum_amd64\\vc_runtimeMinimum_x64.msi", 00000000): stub
+01c8:fixme:advapi:DecryptFileW (L"C:\\ProgramData\\Package Cache\\{D5D19E2F-7189-42FE-8103-92CD1FA457C2}v14.36.32532\\packages\\vcRuntimeMinimum_amd64\\cab1.cab", 00000000): stub
+01c8:fixme:advapi:DecryptFileW (L"C:\\ProgramData\\Package Cache\\{0025DD72-A959-45B5-A0A3-7EFEB15A8050}v14.36.32532\\packages\\vcRuntimeAdditional_amd64\\vc_runtimeAdditional_x64.msi", 00000000): stub
+01c8:fixme:advapi:DecryptFileW (L"C:\\ProgramData\\Package Cache\\{0025DD72-A959-45B5-A0A3-7EFEB15A8050}v14.36.32532\\packages\\vcRuntimeAdditional_amd64\\cab1.cab", 00000000): stub
+01bc:fixme:file:NtLockFile I/O completion on lock not implemented yet
+01bc:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+01bc:fixme:wuapi:automatic_updates_Resume
+01bc:fixme:ver:GetCurrentPackageId (0077FEB4 00000000): stub
+01a0:fixme:ver:GetCurrentPackageId (0077FEB4 00000000): stub
+0194:fixme:ver:GetCurrentPackageId (0077FEB4 00000000): stub
+0170:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0170:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+0238:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+02ec:fixme:setupapi:CMP_WaitNoPendingInstallEvents 10000
+02ec:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+033c:fixme:file:NtLockFile I/O completion on lock not implemented yet
+0344:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+036c:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FE80
+0388:fixme:ntoskrnl:KeInitializeDpc dpc 00000000007E0B80, deferred_routine 0000000100409330, deferred_context 00000000007E0B10 semi-stub.
+0388:fixme:ntoskrnl:RtlIsNtDdiVersionAvailable stub: 100728832
+0388:fixme:ntoskrnl:IoAllocateErrorLogEntry stub: 000000000023F9B0, 172
+0388:err:ntoskrnl:ZwLoadDriver failed to create driver L"\\Registry\\Machine\\System\\CurrentControlSet\\Services\\AbletonAudio_cci_{96d7cce2-6595-43c7-8dd7-f02226df4b59}": c0000001
+regsvr32: Successfully unregistered DLL 'C:\windows\Installer\{6858EE66-726F-4DBD-9668-451D9026FCE8}\pckHtUoGQayNxP\x64\AbletonAudioapi.dll'
+regsvr32: Successfully unregistered DLL 'C:\windows\Installer\{6858EE66-726F-4DBD-9668-451D9026FCE8}\pckHtUoGQayNxP\x64\AbletonAudioapi_x64.dll'
+regsvr32: Successfully unregistered DLL 'C:\windows\Installer\{6858EE66-726F-4DBD-9668-451D9026FCE8}\pckHtUoGQayNxP\x64\AbletonAudioasio.dll'
+regsvr32: Successfully unregistered DLL 'C:\windows\Installer\{6858EE66-726F-4DBD-9668-451D9026FCE8}\pckHtUoGQayNxP\x64\AbletonAudioasio_x64.dll'
+035c:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+regsvr32: Successfully registered DLL 'C:\Program Files\Ableton\USB Audio Driver\x64\AbletonAudioapi.dll'
+regsvr32: Successfully registered DLL 'C:\Program Files\Ableton\USB Audio Driver\x64\AbletonAudioapi_x64.dll'
+regsvr32: Successfully registered DLL 'C:\Program Files\Ableton\USB Audio Driver\x64\AbletonAudioasio.dll'
+regsvr32: Successfully registered DLL 'C:\Program Files\Ableton\USB Audio Driver\x64\AbletonAudioasio_x64.dll'
+0430:fixme:setupapi:DiInstallDriverW parent 0000000000000000, inf_path L"C:\\Program Files\\Ableton\\USB Audio Driver\\x64\\AbletonAudioks.inf", flags 0x2, reboot 000000000011DAC8, stub!
+0430:fixme:setupapi:DiInstallDriverW parent 0000000000000000, inf_path L"C:\\Program Files\\Ableton\\USB Audio Driver\\x64\\AbletonAudio.inf", flags 0x2, reboot 000000000011DAC8, stub!
+0430:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+04a0:fixme:file:copy_file COPY_FILE_COPY_SYMLINK is not supported
+04a0:fixme:file:copy_file COPY_FILE_COPY_SYMLINK is not supported
+04a0:fixme:advapi:CreateProcessWithTokenW 00000000000000A4 0x00000000 (null) L"\"C:\\ProgramData\\{7B471E2A-BE72-496B-B7EA-1522E13C3A24}\\tlsetupfx.exe\" task install --i_actionidx 0 -v --logfile \"C:\\users\\joe\\AppData\\Local\\Temp\\tlsetupfx.log\" --target \"C:\\Program Files\\Ableton\\USB Audio Driver\\x64\"" 0x00000000 0000000000000000 (null) 000000000011D740 000000000011DAE8 - semi-stub
+04b0:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+04a0:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFFFFFFFFFA, 000000000011FEB0
+04c4:fixme:kernelbase:AppPolicyGetThreadInitializationType FFFFFFFFFFFFFFFA, 00000000012AFF50
+04f0:fixme:file:CopyFileExW cancel_ptr is not supported
+0500:fixme:pnputil:wmain stub: L"C:\\windows\\system32\\pnputil.exe" L"/enum-drivers"
+04f0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+04f0:fixme:exec:SHELL_execute flags ignored: 0x00000100
+0538:fixme:icacls:main This is dummy icacls, not performing ACL manipulations
+0538:fixme:icacls:main stub: "icacls.exe" "C:\\ProgramData\\Ableton\\Live 12 Suite" "/Q" "/C" "/t" "/grant" "*S-1-1-0:(F)"
+0558:fixme:powershell:wmain stub.
+0558:fixme:powershell:wmain argv[0] L"powershell"
+0558:fixme:powershell:wmain argv[1] L"-ExecutionPolicy"
+0558:fixme:powershell:wmain argv[2] L"Bypass"
+0558:fixme:powershell:wmain argv[3] L"-NoLogo"
+0558:fixme:powershell:wmain argv[4] L"-NonInteractive"
+0558:fixme:powershell:wmain argv[5] L"-NoProfile"
+0558:fixme:powershell:wmain argv[6] L"-Command"
+0558:fixme:powershell:wmain argv[7] L"$w = New-Object -comObject WScript.Shell; $s = $w.CreateShortcut('C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Ableton Live 12 Suite.lnk'); $s.TargetPath = 'C:\\ProgramData\\Ableton\\Live 12 Suite\\Program\\Ableton Live 12 Suite.exe'; $s.Save()"
+0170:fixme:wuapi:automatic_updates_Resume
+0520:fixme:wintrust:CryptCATPutCatAttrInfo catalog 00B98208, name L"HWID1", flags 0x10010001, size 56, data 00940708, stub!
+0520:fixme:setupapi:CMP_WaitNoPendingInstallEvents 0
+0518:err:menubuilder:convert_to_native_icon error 0x80004005 getting frame 6
+0518:err:menubuilder:convert_to_native_icon error 0x80004005 getting frame 6
+0518:err:menubuilder:convert_to_native_icon error 0x80004005 getting frame 6
+0518:err:menubuilder:convert_to_native_icon error 0x80004005 getting frame 6
+0518:err:menubuilder:convert_to_native_icon error 0x80004005 getting frame 6
+0518:err:menubuilder:convert_to_native_icon error 0x80004005 getting frame 6
+0518:err:menubuilder:convert_to_native_icon error 0x80004005 getting frame 6
+0518:err:menubuilder:convert_to_native_icon error 0x80004005 getting frame 6
+0518:err:menubuilder:convert_to_native_icon error 0x80004005 getting frame 6
+0568:err:ole:com_get_class_object class {ea502722-a23d-11d1-a7d3-0000f87571e3} not registered
+0568:err:ole:com_get_class_object no class object {ea502722-a23d-11d1-a7d3-0000f87571e3} could be created for context 0x1
+0568:err:setupapi:do_file_copyW Unsupported style(s) 0x10
+0568:err:setupapi:do_file_copyW Unsupported style(s) 0x10
+0568:err:setupapi:do_file_copyW Unsupported style(s) 0x10
+0568:err:setupapi:do_file_copyW Unsupported style(s) 0x10
+0568:fixme:setupapi:CM_Locate_DevNodeA 000000000011FA80 (null) 0x00000000: stub
+0568:err:ole:com_get_class_object class {ea502722-a23d-11d1-a7d3-0000f87571e3} not registered
+0568:err:ole:com_get_class_object no class object {ea502722-a23d-11d1-a7d3-0000f87571e3} could be created for context 0x1
+0518:err:menubuilder:convert_to_native_icon error 0x80004005 getting frame 6
+0154:fixme:file:GetTempPath2W (261, L"") semi-stub
+0154:fixme:file:GetTempPath2W (261, L"") semi-stub
+0154:fixme:file:GetTempPath2W (261, L"") semi-stub
+0170:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFA, 007CFEB8
+0154:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFA, 007CFEB8
+0024:fixme:file:GetTempPath2W (261, L"") semi-stub
+0024:fixme:file:GetTempPath2W (261, L"") semi-stub
+0024:fixme:kernelbase:AppPolicyGetProcessTerminationMethod FFFFFFFA, 005CFEB8

@@ -1,0 +1,625 @@
+WINEPREFIX=/home/joe/myBottles/AbletonLive12 wine /home/joe/myBottles/AbletonLive12/drive_c/ProgramData/Ableton/Live\ 12\ Suite/Program/Ableton\ Live\ 12\ Suite.exe
+002c:fixme:winediag:loader_init wine-staging 9.22 is a testing version containing experimental patches.
+002c:fixme:winediag:loader_init Please mention your exact version when filing bug reports on winehq.org.
+0058:fixme:mountmgr:harddisk_ioctl returning zero-filled buffer for IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+013c:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+013c:fixme:nls:get_dummy_preferred_ui_language (0x8 0x409 000000000011F040 0000000000000000 000000000011F048) returning a dummy value (current locale)
+013c:fixme:nls:get_dummy_preferred_ui_language (0x8 0x409 000000000011F040 0000000005D646A0 000000000011F048) returning a dummy value (current locale)
+013c:err:winediag:ntlm_check_version ntlm_auth was not found. Make sure that ntlm_auth >= 3.0.25 is in your path. Usually, you can find it in the winbind package of your distribution.
+013c:err:ntlm:ntlm_LsaApInitializePackage no NTLM support, expect problems
+0058:fixme:mountmgr:harddisk_ioctl returning zero-filled buffer for IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+0148:fixme:pnputil:wmain stub: L"C:\\windows\\system32\\pnputil.exe" L"/enum-drivers"
+013c:fixme:exec:SHELL_execute flags ignored: 0x00000100
+015c:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000AD5FEA0): stub
+0160:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000AE5FEA0): stub
+0164:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000AF5FEA0): stub
+0168:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B05FEA0): stub
+0170:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B25FEA0): stub
+016c:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B15FEA0): stub
+0174:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B35FEA0): stub
+0178:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B45FEA0): stub
+017c:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B55FEA0): stub
+0184:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B75FEA0): stub
+0180:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B65FEA0): stub
+0188:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B85FEA0): stub
+0194:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B95FEA0): stub
+0198:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000BA5FEA0): stub
+019c:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000BB5FEA0): stub
+01a0:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000BC5FEA0): stub
+01a4:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000BD5FEA0): stub
+01a8:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000BE5FEA0): stub
+01ac:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000BF5FEA0): stub
+01b0:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C05FEA0): stub
+01b4:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C15FEA0): stub
+01b8:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C25FEA0): stub
+01bc:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C35FEA0): stub
+01c0:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C45FEA0): stub
+01c4:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C55FEA0): stub
+01c8:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C65FEA0): stub
+01cc:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C75FEA0): stub
+01d0:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C85FEA0): stub
+01d4:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C95FEA0): stub
+01d8:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000CC5FEA0): stub
+013c:fixme:shcore:SetCurrentProcessExplicitAppUserModelID L"Ableton.Live.AppLiveSuite.12": stub
+013c:fixme:dwmapi:DwmSetWindowAttribute (00000000000200E0, 14, 000000000011F920, 4) stub
+013c:fixme:system:SetThreadDpiHostingBehavior (1): stub
+01e8:fixme:dwmapi:DwmFlush () stub
+01e8:fixme:dwmapi:DwmGetCompositionTimingInfo (0000000000000000 000000000CF5FE20)
+013c:fixme:system:EnableNonClientDpiScaling (00000000000100EA): stub
+013c:fixme:system:SetThreadDpiHostingBehavior (0): stub
+01e4:fixme:pnputil:wmain stub: L"C:\\windows\\system32\\pnputil.exe" L"/enum-drivers"
+0158:fixme:exec:SHELL_execute flags ignored: 0x00000100
+0204:fixme:wintrust:CryptCATPutCatAttrInfo catalog 00B98480, name L"HWID1", flags 0x10010001, size 56, data 00940708, stub!
+0204:fixme:setupapi:CMP_WaitNoPendingInstallEvents 0
+0058:fixme:mountmgr:harddisk_ioctl returning zero-filled buffer for IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
+013c:fixme:file:NtLockFile I/O completion on lock not implemented yet
+021c:err:ole:com_get_class_object class {ea502722-a23d-11d1-a7d3-0000f87571e3} not registered
+021c:err:ole:com_get_class_object no class object {ea502722-a23d-11d1-a7d3-0000f87571e3} could be created for context 0x1
+021c:err:setupapi:do_file_copyW Unsupported style(s) 0x10
+021c:err:setupapi:do_file_copyW Unsupported style(s) 0x10
+021c:err:setupapi:do_file_copyW Unsupported style(s) 0x10
+021c:err:setupapi:do_file_copyW Unsupported style(s) 0x10
+021c:fixme:setupapi:CM_Locate_DevNodeA 000000000011FA80 (null) 0x00000000: stub
+021c:err:ole:com_get_class_object class {ea502722-a23d-11d1-a7d3-0000f87571e3} not registered
+021c:err:ole:com_get_class_object no class object {ea502722-a23d-11d1-a7d3-0000f87571e3} could be created for context 0x1
+013c:fixme:system:EnableNonClientDpiScaling (000000000001010E): stub
+013c:fixme:dxgi:wined3d_swapchain_desc_from_dxgi Ignoring scaling 0x1.
+013c:fixme:dxgi:wined3d_bind_flags_from_dxgi_usage Unhandled DXGI usage 0x40.
+013c:fixme:dxgi:d3d11_swapchain_SetColorSpace1 iface 000000000671E3D0, colour_space 0 stub!
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+0230:fixme:d3d:state_linepattern_w Setting line patterns is not supported in OpenGL core contexts.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E2B0.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E930.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E960.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E8F0.
+013c:fixme:file:CopyFileExW cancel_ptr is not supported
+013c:fixme:file:CopyFileExW cancel_ptr is not supported
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E4C0.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E450.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E600.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E590.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011D9A0.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011D930.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011D930.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011D8C0.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E8A0.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E830.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E780.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E710.
+025c:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000AD5FEA0): stub
+0260:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000AE5FEA0): stub
+0264:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000AF5FEA0): stub
+026c:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B15FEA0): stub
+0268:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B05FEA0): stub
+0274:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B35FEA0): stub
+0270:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B25FEA0): stub
+0278:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B45FEA0): stub
+027c:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B55FEA0): stub
+0280:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B65FEA0): stub
+0288:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B85FEA0): stub
+0284:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B75FEA0): stub
+028c:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000B95FEA0): stub
+0290:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000BA5FEA0): stub
+0294:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000BB5FEA0): stub
+0298:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000BC5FEA0): stub
+029c:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000BD5FEA0): stub
+02a4:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C05FEA0): stub
+02a0:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000BE5FEA0): stub
+02a8:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C15FEA0): stub
+02b0:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C35FEA0): stub
+02ac:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C25FEA0): stub
+02b4:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C45FEA0): stub
+02b8:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C55FEA0): stub
+02bc:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C65FEA0): stub
+02c0:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C75FEA0): stub
+02c8:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C95FEA0): stub
+02c4:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000C85FEA0): stub
+02cc:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000000CC5FEA0): stub
+02d0:fixme:avrt:AvSetMmThreadCharacteristicsW (L"Pro Audio",000000001BBDFEA0): stub
+013c:fixme:graphics:ShutdownBlockReasonDestroy (00000000000100EA): stub
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011D1B0.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011D140.
+013c:fixme:graphics:ShutdownBlockReasonDestroy (00000000000100EA): stub
+013c:fixme:file:CopyFileExW cancel_ptr is not supported
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011EBD0.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011EB60.
+013c:fixme:dxgi:DXGID3D10CreateDevice Ignoring flags 0x20.
+013c:fixme:d2d:d2d_d3d_create_render_target Ignoring render target usage 0x2.
+013c:fixme:dwrite:dwritefactory_CreateMonitorRenderingParams (0000000000000001): monitor setting ignored
+013c:fixme:dxgi:wined3d_swapchain_desc_from_dxgi Ignoring scaling 0x1.
+013c:fixme:dxgi:wined3d_bind_flags_from_dxgi_usage Unhandled DXGI usage 0x40.
+013c:fixme:dxgi:d3d11_swapchain_SetColorSpace1 iface 000000002444B090, colour_space 0 stub!
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011F410.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011F410.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+02fc:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+030c:fixme:ntdll:NtQuerySystemInformation info_class SYSTEM_PERFORMANCE_INFORMATION
+030c:fixme:nls:get_dummy_preferred_ui_language (0x8 0x409 000000000011F370 0000000000000000 000000000011F378) returning a dummy value (current locale)
+030c:fixme:nls:get_dummy_preferred_ui_language (0x8 0x409 000000000011F370 0000000000E85CB0 000000000011F378) returning a dummy value (current locale)
+030c:fixme:file:NtLockFile I/O completion on lock not implemented yet
+013c:fixme:system:EnableNonClientDpiScaling (000000000001016C): stub
+013c:fixme:dxgi:wined3d_swapchain_desc_from_dxgi Ignoring scaling 0x1.
+013c:fixme:dxgi:wined3d_bind_flags_from_dxgi_usage Unhandled DXGI usage 0x40.
+013c:fixme:dxgi:d3d11_swapchain_SetColorSpace1 iface 00000000244CCAB0, colour_space 0 stub!
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011DF40.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E080.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E080.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_Present1 Ignored present parameters 000000000011E080.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+013c:fixme:dxgi:d3d11_swapchain_GetDesc Ignoring ScanlineOrdering and Scaling.
+^C0338:fixme:console:default_ctrl_handler Terminating process 138 on event 0
+0338:fixme:msvcrt:__clean_type_info_names_internal (00006FFFFD6BC578) stub
