@@ -41,6 +41,7 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
 7. Run the demo project to verify live 12 is working as expected, this should be successfully playing audio through pulseAudio
 
 ## Workarounds and Troubleshooting
+
 ### Bypassing "Starting Max..." boot sequence Bug
 
 *Credits to user dsnvs on the [discord](discord.gg/yM2Jjh8xYA)!*
@@ -69,6 +70,12 @@ Icon=/path/to/live12.svg
 ```
 
 3. log out and log back in your machine and launch Live 12 Suite
+
+### Problems Noted So Far
+1. Severe CPU Penalty, out of the box Live 12 is using anywhere from 10-20% CPU not doing anything, the demo project sometimes exceeds 60% CPU usage with 256 quantum in pipewire, 128 quantum results in missed audio packets, exceeding 100% on demo project.
+2. Menu bar is not visible, can be accessed wth ALT+F and arrow keys
+3. Program needs to be fullscreen, non fullscreen window cannot be controlled/resized
+4. Multiple Windows very inconvenient to use inside of Wine Virtual Desktop
 
 ## Additional Resources
 ### Custom Wine and Linux Kernel for Audio Production
