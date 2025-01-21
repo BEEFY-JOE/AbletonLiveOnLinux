@@ -42,7 +42,6 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
 
 ## Workarounds and Troubleshooting
 ### Bypassing "Starting Max..." boot sequence Bug
-***Note:*** This bug no longer seems to be relavant for versions starting at 12.1.5, this bug was observed in versions <=12.1.1
 
 *Credits to user dsnvs on the [discord](discord.gg/yM2Jjh8xYA)!*
 
