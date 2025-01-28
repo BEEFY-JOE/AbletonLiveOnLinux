@@ -10,7 +10,7 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
 * CPU: AMD Ryzen 7 7735HS
 * GPU 1: AMD Radeon RX 7700S
 * GPU 2: AMD Radeon 680M
-* wine-staging 9.22-1
+* wine-staging 9.22-1 & wine-staging 10.0
 * winetricks 20250102 - sha256sum: 53194dead910f8a5eb1deacaa4773d4e48f5873633d18ab1ecd6fdb0cb92243b
 * wine-mono 9.3.0-1
 * Ableton Live 12.1.5
