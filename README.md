@@ -17,18 +17,18 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
 
 #### Instructions
 1. Create custom wineprefix to separate Ableton from default wine prefix. 
-    * WINEPREFIX=/path/to/new/custom/prefix wineboot --init
-    * WINEPREFIX=/path/to/new/custom/prefix winecfg
+    * `WINEPREFIX=/path/to/new/custom/prefix wineboot --init`
+    * `WINEPREFIX=/path/to/new/custom/prefix winecfg`
 2. Install winetricks
-    * WINEPREFIX=/path/to/new/custom/prefix winetricks
+    * `WINEPREFIX=/path/to/new/custom/prefix winetricks`
     * In the GUI select install components
     * Find vcrun2022 and dxvk from the list and install them
 3. Install Ableton Live 12
-    * WINEPREFIX=/path/to/new/custom/prefix wine /path/to/ableton_installer.exe
+    * `WINEPREFIX=/path/to/new/custom/prefix wine /path/to/ableton_installer.exe`
     * Leave all options default and proceed through installation
     * Once Installation is complete, **DO NOT LAUNCH** when installer completes, hit **"Close"**
 4. Modify winecfg Settings
-    * WINEPREFIX=/path/to/new/custom/prefix winecfg
+    * `WINEPREFIX=/path/to/new/custom/prefix winecfg`
     * Under graphics tab, enable Emulate virtual desktop, set the desktop size to something that will fit on your primary display.
     * Under graphics tab, Uncheck the box for "Allow the window manager to decorate the windows"
     * Under graphics tab, Uncheck box for "Allow the window manager to control the windows"
@@ -36,7 +36,7 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
     * Under the staging tab, uncheck the box for "Enable CSMT for better graphic performance (deprecated)
     * Click the "Ok" button to close winecfg
 5. Run Ableton Live 12 in the custom wineprefix
-    * WINEPREFIX=/path/to/new/custom/prefix wine /path/to/new/custom/prefix/rive_c/ProgramData/Ableton/Live\ 12\ Suite/Program/Ableton\ Live\ 12\ Suite.exe
+    * `WINEPREFIX=/path/to/new/custom/prefix wine /path/to/new/custom/prefix/rive_c/ProgramData/Ableton/Live\ 12\ Suite/Program/Ableton\ Live\ 12\ Suite.exe`
 6. Ableton Live 12 should launch successfully and not have drawing issues on screen.
 7. Run the demo project to verify live 12 is working as expected, this should be successfully playing audio through pulseAudio
 
