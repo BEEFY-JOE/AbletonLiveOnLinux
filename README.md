@@ -14,7 +14,7 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
 * Ableton Live 12.1.10
 
 ## Instructions
-**Credits to user actondev in the discord for the new meothod which works far better than the old way!**
+**Credits to user actondev in the discord for the new method which works far better than the old way!**
 
 1. Install your distro's lutris package, for Arch Linux;`sudo pacman -S lutris` **DO NOT USE THE FLATPACK VERSION AS THIS IS UNTESTED** 
 
