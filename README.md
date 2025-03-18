@@ -14,7 +14,9 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
 * Ableton Live 12.1.10
 
 ## Instructions
-1. `sudo pacman -S lutris` **DO NOT USE THE FLATPACK VERSION AS THIS IS UNTESTED**
+**Credits to user actondev in the discord for the new meothod which works far better than the old way!**
+
+1. Install your distro's lutris package, for Arch Linux;`sudo pacman -S lutris` **DO NOT USE THE FLATPACK VERSION AS THIS IS UNTESTED** 
 
 2. Install Lutris' needed Wine dependencies, see [the lutris documentation for Arch](https://github.com/lutris/docs/blob/master/WineDependencies.md#archendeavourosmanjaroother-arch-derivatives)
 
@@ -98,35 +100,45 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
 
 There is something wrong with how Max 8's maxpreferences.maxpref file is being processed, so what I did is the following:
 
-1. create a shell script file called live12.sh and store it in a folder of your choice, then insert the following (replace yourusername with your actual machine's user name):
+1. Create a shell script file called live12.sh and store it in a folder of your choice, then insert the following (replace yourusername with your actual machine's user name):
+
+**NOTE:** *the location of your wineprefix will be different depending on where you set it up earlier in the instructions* **PLEASE CHANGE THE $WINEPREFIX LOCATION BEFORE SAYING THIS SCRIPT DOESNT WORK**
 ```
 #!/bin/bash
 
-rm "/home/yourusername/.wine/drive_c/users/yourusername/AppData/Roaming/Cycling '74/Max 8/Settings/maxpreferences.maxpref"
-cd "/home/yourusername/.wine/drive_c/ProgramData/Ableton/Live 12 Suite/Program/"
-wine "Ableton Live 12 Suite.exe"
-
-wineserver -k
+rm "/home/$USER/$WINEPREFIX/drive_c/users/$USER/AppData/Roaming/Cycling '74/Max 8/Settings/maxpreferences.maxpref"
 ```
 
-2. create a new .desktop entry in `~/local/share/applications/wine/Programs` called `live12.desktop` and insert the following (point the Exec to where your `live12.sh` file is / the icon is optional):
-```
-[Desktop Entry]
-Name=Ableton Live 12 Suite
-Exec=/path/to/live12.sh
-Type=Application
-StartupNotify=true
-Icon=/path/to/live12.svg
-```
+2. Make the script executable
+`cd` to the location of the script,
+run `chmod +x ./max4liveScript.sh`
 
-3. log out and log back in your machine and launch Live 12 Suite
+3. Open Lutris
+
+4. Right click on Ableton Live 12, click on `Configure`
+
+5. Go to the `System Options` tab
+    * Scroll down to `Pre-Launch Script`
+    * Click on the three dots, and add the script we created above
+
+6. Just below `Pre-Launch Script` turn on the slider for `Wait for pre-launch script completion`
+
+7. This should now remove the maxpreferences.maxpref everytime we launch AbletonLive12, preventing Ableton from settings stuck on "Starting Max..." 
 
 ### Problems Noted So Far
-1. Severe CPU Penalty, out of the box Live 12 is using anywhere from 10-20% CPU not doing anything, the demo project sometimes exceeds 60% CPU usage with 256 quantum in pipewire, 128 quantum results in missed audio packets, exceeding 100% on demo project.
-2. Menu bar is not visible, can be accessed wth ALT+F and arrow keys
-3. Program needs to be fullscreen, non fullscreen window cannot be controlled/resized
-4. Multiple Windows very inconvenient to use inside of Wine Virtual Desktop
+1. Menu bar is not visible in windowed mode, can be accessed wth ALT+F and arrow keys
+2. Program needs to be fullscreen, non fullscreen window cannot be controlled/resized and mouse location data is innacurate
+3. Multiple Windows are a struggle because the program is fullscreen
+4. Sometimes the program becomes uncontrollable, even in fullscreen mode, the work around is press ctrl + , to open settings and then close settings, then the fullscreen program becomes controllable again
+5. Max for live doesn't work or works inconsistently, your millage may vary
+
+### What hasn't been tested yet
+1. **External plugins!** please try to use external plugins and report findings and solutions in the Discord. I would assume yabridge will work, but that is yet to be determined
+
+### What if I run into a problem that isn't documented here?
+* Please join the discord server and participate in conversation to try to figure out the problem with other members of the community! When we work together we all win!
 
 ## Additional Resources
 ### Custom Wine and Linux Kernel for Audio Production
-There is a [custom Wine Version](https://github.com/nine7nine/Wine-NSPA) and [Linux Kernel](https://github.com/nine7nine/Linux-NSPA-pkgbuild) for Professional Audio on Arch Linux written by user nine7nine on github.The kernel and wine version are Realtime Capable Pro Audio optimized versions, and specifically written with Ableton Live on Linux in mind.
+If this is not sufficient and you want more of a challenge, there is a [custom Wine Version](https://github.com/nine7nine/Wine-NSPA) and [Linux Kernel](https://github.com/nine7nine/Linux-NSPA-pkgbuild) for Professional Audio on Arch Linux written by user nine7nine on github.The kernel and wine version are Realtime Capable Pro Audio optimized versions, and specifically written with Ableton Live on Linux in mind.
+Current version is for Live 11 and 10, but nine7nine is currently rebasing to Wine10, and updating for Ableton Live 12
