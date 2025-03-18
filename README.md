@@ -122,7 +122,24 @@ run `chmod +x ./max4liveScript.sh`
 
 6. Just below `Pre-Launch Script` turn on the slider for `Wait for pre-launch script completion`
 
-7. This should now remove the maxpreferences.maxpref everytime we launch AbletonLive12, preventing Ableton from settings stuck on "Starting Max..." 
+7. This should now remove the maxpreferences.maxpref everytime we launch AbletonLive12, preventing Ableton from settings stuck on "Starting Max..."
+
+### How do I change the wineasio sample rate?
+1. Open Lutris
+2. Select Ableton Live
+3. In the bottom menu, next to the wineglass icon, click on the up arrow
+4. Click on `Wine registry` in the menu
+5. Navigate to `HKEY_CURRENT_USER\Software\Wine\WineASIO`
+6. Double click on the `Prefered Buffer Size` attribute
+7. Change the Base to Decimal
+8. Ebter the preffered sample rate; e.g. 64,128,256,512,etc...
+9. Click on Ok
+10. Launch Ableton
+11. If Ableton is already running, you have to turn off the audio engine and turn it back on
+    * Open the options menu from the menu bar
+    * Click on Audio Engine
+    * Repeat the steps again to turn the audio engine back on
+12. WineASIO should now be set to the sample rate you just change in wine registry
 
 ### Problems Noted So Far
 1. Menu bar is not visible in windowed mode, can be accessed wth ALT+F and arrow keys
