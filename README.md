@@ -60,7 +60,6 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
             * BattleEye Anti-Cheat
             * Easy Anti-Cheat
         * Scroll Down and for the `Audio Driver` drop down, select `ALSA`
-    * Go to the ``
 
 6. Ableton Live 12 should launch successfully
 
