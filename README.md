@@ -83,9 +83,9 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
 
         **NOTE:** ***the version of wine-tkg may be different if you installed a different version, use tab complete to help you, or check the directory manually***
         * `cd /usr/lib/wine/x86_64-windows`
-        * `cp wineasio64.dll /home/joe/.local/share/lutris/runners/wine/wine-tkg-valve-exp-bleeding-9.0.174637.20250316-327-x86_64.pkg/lib/wine/x86_64-windows/wineasio64.dll`
+        * `cp wineasio64.dll /home/$USER/.local/share/lutris/runners/wine/wine-tkg-valve-exp-bleeding-9.0.174637.20250316-327-x86_64.pkg/lib/wine/x86_64-windows/wineasio64.dll`
         * `cd /usr/lib/wine/x86_64-unix/`
-        * `cp wineasio64.dll.so /home/joe/.local/share/lutris/runners/wine/wine-tkg-valve-exp-bleeding-9.0.174637.20250316-327-x86_64.pkg/lib/wine/x86_64-unix/wineasio64.dll.so`
+        * `cp wineasio64.dll.so /home/$USER/.local/share/lutris/runners/wine/wine-tkg-valve-exp-bleeding-9.0.174637.20250316-327-x86_64.pkg/lib/wine/x86_64-unix/wineasio64.dll.so`
     * wineasio should now be working in ableton live
     * open Ableton Live 12, go to the settings, and select Wine ASIO from the settings
     * you won't be able to change the sample rate for Wine ASIO directly in the Ableton Live settings, we'll go over that in the Troubleshooting and work around section
