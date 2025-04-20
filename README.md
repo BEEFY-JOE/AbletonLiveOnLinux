@@ -124,6 +124,21 @@ run `chmod +x ./max4liveScript.sh`
 
 7. This should now remove the maxpreferences.maxpref everytime we launch AbletonLive12, preventing Ableton from settings stuck on "Starting Max..."
 
+### Ableton Crashes when selecting WineASIO in the audio settings
+1. Add your user to the `audio` and `pipewire` groups, run these commands in your terminal.
+    ```
+    sudo usermod -aG audio $(whoami)
+    sudo usermod -aG pipewire $(whoami)
+    ```
+2. Reboot the computer. 
+3. This should solve the issue, if not, you may be missing a dependency. We are still trying to identify all of the dependencies needed, but here are some to try. **Note: Please report in the Ableton on Linux discord group, which dependency fixed the issue so that we can narrow down the needed dependencies**
+    ```
+    libwireplumber
+    lib32-pipewire-jack
+    libpulse
+    wireplumber
+    ```
+
 ### How do I change the wineasio sample rate?
 1. Open Lutris
 2. Select Ableton Live
