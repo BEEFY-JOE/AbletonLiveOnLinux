@@ -18,7 +18,9 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
 
 1. Install your distro's lutris package, for Arch Linux;`sudo pacman -S lutris` **DO NOT USE THE FLATPACK VERSION AS THIS IS UNTESTED** 
 
-2. Install Lutris' needed Wine dependencies, see [the lutris documentation for Arch](https://github.com/lutris/docs/blob/master/WineDependencies.md#archendeavourosmanjaroother-arch-derivatives)
+2. Install Lutris' needed Wine dependencies, see [the lutris documentation for Arch](https://github.com/lutris/docs/commit/898ca03715d2d5f170af83e714dfcc549820aa9f)
+
+**NOTE:** *Lutris changed their distribution dependencies page recently to say, just use proton-ge. This is not how I had setup my system when I had tested and got it working. Above, I am linking back to the previous commit before this change. To see the information in a readable view, change the view from RAW to Markdown in the WYSIWYG menu at the top of the file.*
 
 3. ### Install Ableton Live 12 via Lutris
     * Download Ableton Live 12 from your account downloads
@@ -147,14 +149,16 @@ run `chmod +x ./max4liveScript.sh`
 5. Navigate to `HKEY_CURRENT_USER\Software\Wine\WineASIO`
 6. Double click on the `Prefered Buffer Size` attribute
 7. Change the Base to Decimal
-8. Ebter the preffered sample rate; e.g. 64,128,256,512,etc...
-9. Click on Ok
-10. Launch Ableton
-11. If Ableton is already running, you have to turn off the audio engine and turn it back on
+8. Enter the preffered sample rate; e.g. 64,128,256,512,etc...
+9. Double click on the `Fixed Buffer Size` attribute
+10. Set the value to `0` 
+11. Click on Ok
+12. Launch Ableton
+13. If Ableton is already running, you have to turn off the audio engine and turn it back on
     * Open the options menu from the menu bar
     * Click on Audio Engine
     * Repeat the steps again to turn the audio engine back on
-12. WineASIO should now be set to the sample rate you just change in wine registry
+14. WineASIO should now be set to the sample rate you just change in wine registry
 
 ### Problems Noted So Far
 1. Menu bar is not visible in windowed mode, can be accessed wth ALT+F and arrow keys
