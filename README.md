@@ -1,5 +1,5 @@
 # AbletonLiveOnLinux
-A Repository for All Things Related to Running Ableton Live on Linux, part of the newly formed [Ableton on Linux Discord Group](discord.gg/yM2Jjh8xYA).
+A Repository for All Things Related to Running Ableton Live on Linux, part of the newly formed [Ableton on Linux Discord Group](https://discord.gg/yM2Jjh8xYA).
 
 # Live 12
 ## Install Documentation (WIP)
