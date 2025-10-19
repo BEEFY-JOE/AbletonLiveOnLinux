@@ -31,7 +31,7 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
     * Leave the Installer preset and Locale as default `Windows 10` and `System`
     * Click the `Install` button in the top right
     * Click on the `Install` button for `Wine Setup File`
-    * For `Select Installation Directory` set this to a sane place for your WinePrefix, **EXAMPLE:** `/home/$USER$/myWinePrefixes/abletonLive12`
+    * For `Select Installation Directory` set this to a sane place for your wine prefix **EXAMPLE:** `/home/$USER$/myWinePrefixes/abletonLive12`
     * Click `Continue`
     * When selecting the setup file, click the `...` and point it to where your Ableton Live 12 installer .exe is ***it should be in your downloads folder where you extracted it earlier***
     * Once the Installer.exe is selected, click `Install` in the top right
@@ -57,8 +57,7 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
         * Replace `myBottles/abletonLive12` with the path to the prefix we created earlier **EXAMPLE** `myWinePrefixes/abletonLive12`
         * Save the script and exit your text editor
     * Back in Lutris, Right Click on the Ableton Live tile, click `configure`
-    * Enable the Advanced toggle at the top right of the window
-    * Go to the `Game Options` tab
+    * Go to the `Game Options` tab and enable the Advanced toggle at the top right of the window
         * For `Executable` find and select the Ableton Live exe, it should be in the ProgramData folder in your wineprefix we made earlier, **EXAMPLE:** `/home/$USER/myWinePrefixes/abletonLive12/drive_c/ProgramData/Ableton/Live 12 Suite/Program/Ableton Live 12 Suite.exe`
         * For `Wine prefix` ensure that this is the prefix we created earlier **EXAMPLE** `/home/$USER/myWinePrefixes/abletonLive12`
     * Go to the `Runner options` tab
@@ -85,12 +84,12 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
 
 10. ### Installing wineasio for low latency audio
     * Build wineasio yourself, follow the instructions from their [github page](https://github.com/wineasio/wineasio)
-    **NOTE:** ***make sure to recursively clone the repository: `git clone --recursive https://github.com/wineasio/wineasio`.***
-    **NOTE:** ***if you have a custom wine build (example: `wine-tkg`) installed as your system wine, `wineasio` needs `wine-staging` to be installed to compile successfully. After you finish compiling wineasio, you can reinstall your custom wine build.***
+    * **NOTE:** ***make sure to recursively clone the repository: `git clone --recursive https://github.com/wineasio/wineasio`.***
+    * **NOTE:** ***if you have a custom wine build (example: `wine-tkg`) installed as your system wine, `wineasio` needs `wine-staging` to be installed to compile successfully. After you finish compiling wineasio, you can reinstall your custom wine build.***
     * Once compiled, we need to copy the `wineasio64.dll` and `wineasio64.dll.so` into the wine-tkg-valve-exp runner
     * for Arch Linux
-        **NOTE:** ***for other linux distros the location of wine dll's may be different, consult your distro's wine documentation***
-        **NOTE:** ***the version of wine-tkg may be different if you installed a different version, use tab complete to help you, or check the directory manually***
+        * **NOTE:** ***for other linux distros the location of wine dll's may be different, consult your distro's wine documentation***
+        * **NOTE:** ***the version of wine-tkg may be different if you installed a different version, use tab complete to help you, or check the directory manually***
         * `cd /usr/lib/wine/x86_64-windows`
         * `cp wineasio64.dll /home/$USER/.local/share/lutris/runners/wine/wine-tkg-valve-exp-bleeding-9.0.174637.20250316-327-x86_64.pkg/lib/wine/x86_64-windows/wineasio64.dll`
         * `cd /usr/lib/wine/x86_64-unix/`
