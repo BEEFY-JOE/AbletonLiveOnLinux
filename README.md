@@ -51,21 +51,33 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
     * Wine TKG is now a runner in Lutris
 
 5. ### Configuring Ableton Live 12 in Lutris
-    * Back in Lutris Right Click on the Ableton Live tile, click `configure`
+    * Back in Lutris, Select the Ableton Live tile and click the arrow pointing up next to the `Play` button
+    * Select `Browse Files`
+        * Copy `EXAMPLE_fixStartingMax.sh` to the folder that opens and then open the script with any text editor of your liking.
+        * Replace `myBottles/abletonLive12` with the path to the prefix we created earlier **EXAMPLE** `myWinePrefixes/abletonLive12`
+        * Save the script and exit your text editor
+    * Back in Lutris, Right Click on the Ableton Live tile, click `configure`
+    * Enable the Advanced toggle at the top right of the window
     * Go to the `Game Options` tab
-        * For `Executable` find and select the Ableton Live exe, it should be in the ProgramData folder in your wineprefix we made earlier, **EXAMPLE:** `/home/$USER/myBottles/abletonLive12/drive_c/ProgramData/Ableton/Live 12 Suite/Program/Ableton Live 12 Suite.exe`
-        * For `Wine prefix` ensure that this is the prefix we created earlier **EXAMPLE** `/home/$USER/myBottles/abletonLive12`
+        * For `Executable` find and select the Ableton Live exe, it should be in the ProgramData folder in your wineprefix we made earlier, **EXAMPLE:** `/home/$USER/myWinePrefixes/abletonLive12/drive_c/ProgramData/Ableton/Live 12 Suite/Program/Ableton Live 12 Suite.exe`
+        * For `Wine prefix` ensure that this is the prefix we created earlier **EXAMPLE** `/home/$USER/myWinePrefixes/abletonLive12`
     * Go to the `Runner options` tab
         * For `Wine Version` select the wine-tkg-valve-exp-bleeding that we installed with ProtonUpQT before **EXAMPLE** `wine-tkg-valve-exp-bleeding-9.0.174637-x86_64.pkg`
         * Scroll Down and turn off the following (we don't need these);
             * AMD FSR
             * BattleEye Anti-Cheat
             * Easy Anti-Cheat
+        * Scroll down and enable `Windowed (virtual desktop)`. This is optional, however, it fixes issues related to drag and dropping in Ableton.
         * Scroll Down and for the `Audio Driver` drop down, select `ALSA`
+    * Go to the `System options` tab
+        * Scroll down to `Environment variables` and click on the `Add` button.
+            * Set the key to `WINE_FULLSCREEN_INTEGER_SCALING`
+            * Set the value to `1` 
+        * Scroll down to `Pre-launch script`, find and select the script you just copied and modified **EXAMPLE** `/home/YOUR USER HERE/myWinePrefixes/abletonLive12/EXAMPLE_fixStartingMax.sh`
 
 6. Ableton Live 12 should launch successfully
 
-7. Press `F11` on your keyboard to make Ableton Live fullscreen (the app needs to be fullscreen because of drawing/scaling issues and missing menu bar in windowed mode)
+7. Press `F11` on your keyboard to make Ableton Live fullscreen if it isn't already (the app needs to be fullscreen because of drawing/scaling issues and missing menu bar in windowed mode)
 
 8. Play the Demo Project to ensure that Ableton is working and playing audio
 
@@ -73,21 +85,29 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
 
 10. ### Installing wineasio for low latency audio
     * Build wineasio yourself, follow the instructions from their [github page](https://github.com/wineasio/wineasio)
-    * Once wineasio is built, follow the instructions on their github page for installing wineasio to your system
-    * Once wineasio is installed, follow the instrcutions on their github page to register wineasio to the AbletonLive12 wineprefix we created earlier
-        * **EXAMPLE** `env WINEPREFIX=/home/$USER/myBottles/abletonLive12 ./wineasio-register` 
-        * You should get a confirmation dialogue that indicates that it was registered successfully
-    * Once registered, we need to copy the `wineasio64.dll` and `wineasio64.dll.so` into the wine-tkg-valve-exp runner
+    **NOTE:** ***make sure to recursively clone the repository: `git clone --recursive https://github.com/wineasio/wineasio`.***
+    **NOTE:** ***if you have a custom wine build (example: `wine-tkg`) installed as your system wine, `wineasio` needs `wine-staging` to be installed to compile successfully. After you finish compiling wineasio, you can reinstall your custom wine build.***
+    * Once compiled, we need to copy the `wineasio64.dll` and `wineasio64.dll.so` into the wine-tkg-valve-exp runner
     * for Arch Linux
-
         **NOTE:** ***for other linux distros the location of wine dll's may be different, consult your distro's wine documentation***
-
         **NOTE:** ***the version of wine-tkg may be different if you installed a different version, use tab complete to help you, or check the directory manually***
         * `cd /usr/lib/wine/x86_64-windows`
         * `cp wineasio64.dll /home/$USER/.local/share/lutris/runners/wine/wine-tkg-valve-exp-bleeding-9.0.174637.20250316-327-x86_64.pkg/lib/wine/x86_64-windows/wineasio64.dll`
         * `cd /usr/lib/wine/x86_64-unix/`
         * `cp wineasio64.dll.so /home/$USER/.local/share/lutris/runners/wine/wine-tkg-valve-exp-bleeding-9.0.174637.20250316-327-x86_64.pkg/lib/wine/x86_64-unix/wineasio64.dll.so`
-    * wineasio should now be working in ableton live
+    * Once wineasio is installed, follow the instructions on their github page to register wineasio to the AbletonLive12 wineprefix we created earlier
+        * **EXAMPLE** `env WINEPREFIX=/home/$USER/myWinePrefixes/abletonLive12 ./wineasio-register` 
+        * You should get a confirmation dialogue that indicates that it was registered successfully
+        * **NOTE:** ***if this didn't work, and you get an error message along the lines of `wine64 not found`, run this command instead:*** `WINEPREFIX=/home/$USER/myWinePrefixes/abletonLive12 wine regsvr32 /usr/lib/x86_64-windows/wineasio64.dll`
+    * For wineasio to work properly:
+        * Your user needs to be in the `realtime`, `audio` and `pipewire` groups
+            * run `sudo usermod -aG audio $USER` and `sudo usermod -aG realtime $USER` and `sudo usermod -aG pipewire $USER`
+            * **NOTE:** ***if any of these groups don't exist, run*** `sudo groupadd GROUP_GOES_HERE` 
+        * Your audio output needs to be set to `Pro mode`:
+            * For KDE Plasma, you can go to the `Sound` tab in the `System Settings`
+            * Locate your current playback device (audio output) and set the profile to `Pro Audio`
+        * Reboot your system
+    * wineasio should now be working in Ableton Live
     * open Ableton Live 12, go to the settings, and select Wine ASIO from the settings
     * you won't be able to change the sample rate for Wine ASIO directly in the Ableton Live settings, we'll go over that in the Troubleshooting and work around section
 
@@ -127,10 +147,11 @@ run `chmod +x ./max4liveScript.sh`
 7. This should now remove the maxpreferences.maxpref everytime we launch AbletonLive12, preventing Ableton from settings stuck on "Starting Max..."
 
 ### Ableton Crashes when selecting WineASIO in the audio settings
-1. Add your user to the `audio` and `pipewire` groups, run these commands in your terminal.
+1. Add your user to the `audio`, `pipewire` and `realtime` groups, run these commands in your terminal.
     ```
     sudo usermod -aG audio $(whoami)
     sudo usermod -aG pipewire $(whoami)
+    sudo usermod -aG realtime $(whoami)
     ```
 2. Reboot the computer. 
 3. This should solve the issue, if not, you may be missing a dependency. We are still trying to identify all of the dependencies needed, but here are some to try. **Note: Please report in the Ableton on Linux discord group, which dependency fixed the issue so that we can narrow down the needed dependencies**
@@ -177,3 +198,4 @@ run `chmod +x ./max4liveScript.sh`
 ### Custom Wine and Linux Kernel for Audio Production
 If this is not sufficient and you want more of a challenge, there is a [custom Wine Version](https://github.com/nine7nine/Wine-NSPA) and [Linux Kernel](https://github.com/nine7nine/Linux-NSPA-pkgbuild) for Professional Audio on Arch Linux written by user nine7nine on github.The kernel and wine version are Realtime Capable Pro Audio optimized versions, and specifically written with Ableton Live on Linux in mind.
 Current version is for Live 11 and 10, but nine7nine is currently rebasing to Wine10, and updating for Ableton Live 12
+
