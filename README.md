@@ -1,5 +1,5 @@
 # AbletonLiveOnLinux
-A Repository for All Things Related to Running Ableton Live on Linux, part of the newly formed [Ableton on Linux Discord Group](discord.gg/yM2Jjh8xYA).
+A Repository for All Things Related to Running Ableton Live on Linux, part of the newly formed [Ableton on Linux Discord Group](https://discord.gg/yM2Jjh8xYA).
 
 # Live 12
 ## Install Documentation (WIP)
@@ -197,4 +197,3 @@ run `chmod +x ./max4liveScript.sh`
 ### Custom Wine and Linux Kernel for Audio Production
 If this is not sufficient and you want more of a challenge, there is a [custom Wine Version](https://github.com/nine7nine/Wine-NSPA) and [Linux Kernel](https://github.com/nine7nine/Linux-NSPA-pkgbuild) for Professional Audio on Arch Linux written by user nine7nine on github.The kernel and wine version are Realtime Capable Pro Audio optimized versions, and specifically written with Ableton Live on Linux in mind.
 Current version is for Live 11 and 10, but nine7nine is currently rebasing to Wine10, and updating for Ableton Live 12
-
