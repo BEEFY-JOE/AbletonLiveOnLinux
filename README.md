@@ -4,14 +4,14 @@ A Repository for All Things Related to Running Ableton Live on Linux, part of th
 # Live 12
 ## Install Documentation (WIP)
 #### Enviroment Tested
-* Linux 6.13.6
-* DE: KDE Plasma 6.3.3
+* Linux 6.17.4
+* DE: KDE Plasma 6.5.1
 * WM: KWin (Wayland)
 * CPU: AMD Ryzen 7 7735HS
 * GPU 1: AMD Radeon RX 7700S
 * GPU 2: AMD Radeon 680M
 * wine-tkg-valve-exp-bleeding-9.0.174637.20250316-327-x86_64
-* Ableton Live 12.1.10
+* Ableton Live 12.2.6
 
 ## Instructions
 **Credits to user actondev in the discord for the new method which works far better than the old way!**
