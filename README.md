@@ -1,3 +1,8 @@
+# IMPROTANT NOTICE 2026-AUG-16
+This repository and project has been superseded by Shibco's new [ableton-linux](https://github.com/shibco/ableton-linux) project. The community discord is still located at [Ableton on Linux](https://discord.gg/yM2Jjh8xYA). Please go to the new project and support Shibco and the rest of the community with continuing the project!
+
+The original repo items are still listed below for historical reasons.
+
 # AbletonLiveOnLinux
 A Repository for All Things Related to Running Ableton Live on Linux, part of the newly formed [Ableton on Linux Discord Group](https://discord.gg/yM2Jjh8xYA).
 
